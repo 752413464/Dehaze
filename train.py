@@ -115,8 +115,8 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 
 	# Input Parameters
-	parser.add_argument('--orig_images_path', type=str, default="gt/")
-	parser.add_argument('--hazy_images_path', type=str, default="haze/")
+	parser.add_argument('--orig_images_path', type=str, default="gt4/")
+	parser.add_argument('--hazy_images_path', type=str, default="hazy4/")
 	parser.add_argument('--lr', type=float, default=0.0003)
 	parser.add_argument('--weight_decay', type=float, default=0.0001)
 	parser.add_argument('--grad_clip_norm', type=float, default=0.1)
